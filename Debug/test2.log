@@ -1,0 +1,8 @@
+﻿  蜂鸣器.cpp
+E:\Data\Code\test2\蜂鸣器.cpp(29,37): error C2665: “strchr”: 2 个重载中没有一个可以转换所有参数类型
+E:\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(504,28): message : 可能是“char *strchr(char *const ,const int)”
+E:\Software\Visual-Studio\VC\Tools\MSVC\14.27.29110\include\vcruntime_string.h(70,38): message : 或    “const char *strchr(const char *,int)”
+E:\Data\Code\test2\蜂鸣器.cpp(29,37): message : 尝试匹配参数列表“(LPTSTR, char)”时
+E:\Data\Code\test2\蜂鸣器.cpp(33,24): error C2664: “int atoi(const char *)”: 无法将参数 1 从“LPTSTR”转换为“const char *”
+E:\Data\Code\test2\蜂鸣器.cpp(33,15): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+E:\Windows Kits\10\Include\10.0.18362.0\ucrt\stdlib.h(447,62): message : 参见“atoi”的声明
